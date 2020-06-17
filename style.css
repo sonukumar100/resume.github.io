@@ -1,0 +1,541 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+     background-color:#F2F3F4;      /* #F7F9F9 ;*/
+	/*background: url("img/back4.jpg");*/
+	
+}
+.header{
+	/*background-color:#11AE1E ;*/
+	padding: 150px 0;
+	height: 500px;
+	background: linear-gradient(to top,#1C2833 0%,#17202A 100%);
+
+}
+.profile-img{
+	height: 180px;
+	width: 180px;
+	border-radius: 50%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.logo-txt{
+	margin-left: 30px;
+	padding-top: 10px;
+}
+.logo-txt > h1{
+	font-family: "Latto";
+	font-weight: bold;
+	margin-bottom: 5px;
+	color:#ECF0F1;
+
+}
+.logo-txt > h3{
+      color:#B3B6B7;
+}
+.logo-txt > ul{
+	margin-top: 15px;
+} 
+.listdiv{
+	float: left;
+}
+.contact-img{
+	
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color:#5DADE2;
+	background-image:url(img/gmail.png);
+	height: 40px;
+	width: 40px;
+	margin-right: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.contact-img:hover{
+	background-color:#21618C;
+}
+.contact-img1{
+	
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color:#5DADE2;
+	background-image:url(img/github.png);
+	height: 40px;
+	width: 40px;
+	margin-right: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.contact-img1:hover{
+	background-color:#21618C;
+}
+.contact-img2{
+	
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color:#5DADE2;
+	background-image:url(img/facebook.png);
+	height: 40px;
+	width: 40px;
+	margin-right: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.contact-img2:hover{
+	background-color:#21618C;
+}
+.contact-img3{
+	
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color:#5DADE2;
+	background-image:url(img/phone.png);
+	height: 40px;
+	width: 40px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.contact-img3:hover{
+	background-color:#21618C;
+}
+.btncontact{
+	background-color: green;
+	margin-top: 50px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#contlog{
+	padding-right: 7px;
+    color:white;
+}
+/*-------------------------About Me Area----------------------------*/
+.abtcont{
+	margin-top: 50px;
+}
+.aboutme{
+ margin-top: 20px;
+position: relative;
+}
+.paradiv{
+	border-top:2.5px solid #525151; 
+}
+.headingtool {
+	border-left:1.5px solid #525151;
+    border-right:1.5px solid #525151;
+    border-top:1.5px solid #525151;
+	margin-bottom:0px;
+	width:165px;
+	padding-left: 14px;
+	background-color: #F97097;
+	font-family: "Lotto";
+
+}
+.aboutmepara{
+	font-family:monospace;
+	padding: 30px 10px 0px 10px;
+	font-size: 20px;
+	overflow: hidden;
+	text-align: justify;
+  text-justify: inter-word;
+
+
+}
+.mytable{
+	
+	font-family: fantasy;
+	font-size: 20px;
+	font-weight: 600px;
+}
+#one{
+	padding-right: 100px;
+}
+.tablecol{
+	margin-top: 60px;
+}
+.myquote{
+	border-top:10px groove #E74C3C ;
+	border-bottom:10px groove #E74C3C ;
+	margin-top: 60px;
+}
+.myquote > h4 {
+	padding-top: 50px;
+	color: #E74C3C ;
+}
+
+/*-----------------------Education-------------------*/
+.largecont{
+	margin-top: 100px;
+}
+.edudiv{
+	border:1px 0.5px 1px 0.5 solid black;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.eduhead{
+padding-left: 0px;
+}
+.eduhead > h2 {
+	background-color: #1ABC9C ;
+	border-bottom: 1.5px solid #525151;
+}
+.edudiv > ul {
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-bottom: 25px;
+	font-family: "Lotto";
+	font-size: 20px;
+	font-color:#2E4053;
+	text-shadow: 1px 1px grey;
+	font-weight: 500px;
+}
+.edudiv > img {
+	padding-top:26px;
+	padding-left: 20px; 
+}
+
+
+/*-------------------------------Skills-----------------*/
+.skillhead{
+	padding: 0;
+
+}
+.skillhead2{
+	margin-bottom: 30px;
+	border-bottom: 2.5px solid #525151;
+}
+.skillhead2 > h2 {
+	background-color: #F39C12;
+
+}
+.progcontainer{
+	margin-top: 30px;
+	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.skilllab{
+	font-family: "Lotto" sans-serif;
+	font-size: 25px;
+	margin-top: 20px;
+	font-weight: 800%;
+	color:#2E4053;
+}
+.myquote2{
+       border-top:10px groove #5DADE2  ;
+	border-bottom:10px groove #5DADE2  ;
+	margin-top: 60px;	
+	margin-bottom: 40px;
+}
+.myquote2 > h4 {
+	padding: 40px 0px 40px 0px;
+	color:#3498DB;
+}
+
+/*--------------------------Projects-----------------*/
+
+.projhead{
+	margin-top:20px; 
+	border-bottom:2.5px solid #525151;
+	padding: 0;
+}
+.flipcont{
+	margin-top: 70px;
+}
+.prohead > h3{
+	background-color:#30EDEE ;
+	color: #505050 ;
+	font-family: "Lotto";
+	height: 30px;
+
+}
+
+
+/*.flip-card {
+  background-color: transparent;
+  width: 100%;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}*/
+
+/* This container is needed to position the front and back side */
+/*.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+*/
+/* Do an horizontal flip when you move the mouse over the flip box container */
+/*.flip-card:hover .flip-card-inner {
+/*  transform: rotateY(180deg);
+}*/*/
+
+/* Position the front and back side */
+/*.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}*/
+.flip-card-front img{animation: heartbeat 5s linear infinite;}
+@keyframes heartbeat{
+0% {
+    transform: scale(.75);
+}
+20% {
+    transform: scale(1);
+}
+40% {
+    transform: scale(.75);
+}
+60% {
+    transform: scale(1);
+}
+80% {
+    transform: scale(.75);
+}
+100% {
+    transform: scale(.75);
+}
+}
+
+
+/* Style the front side (fallback if image is missing) */
+/*.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}*/
+
+/* Style the back side */
+/*.flip-card-back {
+	background: linear-gradient(to top,#A9F488  0%,#256E05  100%);
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+  height: 300px;
+}*/
+
+/*----------------------------------Certification-----------------------*/
+.largecert{
+	margin-top: 200px;
+}
+.certheading{
+	width: 193px;
+}
+.cercol {
+	border: 4px solid #6D6D6D;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.certhead{
+	margin-bottom: 80px;
+}
+.certend{
+	margin-top: 60px;
+	font-family: monospace; 
+	font-size: 20px;
+
+}
+.certend > h3{
+	text-align: center;
+	font-family: monospace; 
+	padding-bottom: 20px;
+}
+.certend > p {
+	
+	text-align: justify;
+}
+
+/*-----------------------------Myform-----------------------------------------*/
+.contmehead{
+	margin-bottom: 35px;
+}
+.myform{
+	background: linear-gradient(to top,#F0A5C1 0%,#5DADE2  100%);
+	padding: 10px 40px 10px 40px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+
+
+@media (min-width: 768px) and (max-width:991px) {
+	.cercol{
+		height:170px;
+	}
+} 
+
+/*-----------------------------------Footer------------------------------------------*/
+
+.foot{
+	
+	margin-top: 20px;
+	
+}
+
+
+@media (min-width: 768px) and (max-width: 2400px){
+	.edudiv:hover{
+	background-color: #96F1B0;
+	box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+}
+.edudiv{
+	-webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+}
+.certdiv{
+	-webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+}
+.certdiv:hover{
+	box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+    padding: 0;
+}
+
+.eduimg{
+	width: 100%;
+	height: 400px;
+}
+}
+
+@media (max-width: 767px){
+	.header{
+		padding: 45px;
+	}
+	.headdiv{
+		width: 100%;
+		text-align: center;
+		
+	}
+		
+   .logo-txt {
+   	    width: 100%;
+   	    margin-left: 0px;
+   	    text-align: center;
+   	    
+   }
+   .mylist{
+   	display: inline-block;
+   	padding-top: 10px;
+   
+
+   }
+   .btndiv{
+   	width: 100%;
+   	text-align: center;
+   	}
+   	.btncontact{
+   		margin-top: 0px;
+   	}
+   	.edudiv{
+   		margin-bottom: 10px;
+   	}
+   	.row{
+   		padding: 0px 10px 0px 10px;
+   	}
+   	.edudiv:hover{
+     background-color:  #96F1B0;
+   	  
+   	}
+
+	.col-xsm-6{
+		width:50%;
+	}
+	.flipcont{
+		padding: 0;   
+		margin: 0;
+
+	}
+
+	.mobflipcont{
+		margin-bottom: 120px;
+		margin-top: 20px;
+	}
+	.col-sm-6{
+		width: 50%;
+	}
+	.cercol{
+		height: 120px;
+	}
+	.certdiv{
+		padding:4px;
+		margin: 0;
+	}
+	.skillhead2{
+		margin-bottom: 20px;
+	}
+	.abtcont{
+		margin-top:20px;
+	}
+	.tablecol{
+		margin-top: 25px;
+	}
+	.myquote > h4{
+        padding-top:30px;
+        padding-bottom: 30px;
+	}
+	.phonecont{
+		margin-top: 40px;
+	}
+    .phonecert{
+    	margin-top: 120px;
+    }
+    .certhead{
+    	margin-bottom: 30px;
+    }
+    .aboutmepara{
+    	font-family:Helvetica sans-serif;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
